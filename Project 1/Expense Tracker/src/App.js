@@ -1,7 +1,8 @@
 // import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+// function App() {      //another way of writing functions...
+const App = () => {
   const expenses = [
     {
       id: "e1",
@@ -35,6 +36,6 @@ function App() {
       <Expenses expense={expenses}></Expenses>
     </div>
   );
-}
+};
 
 export default App;
